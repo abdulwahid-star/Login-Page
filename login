@@ -17,11 +17,9 @@ class Login extends StatefulWidget {
 class _LoginState extends State<Login> {
   @override
   Widget build(BuildContext context) {
-    //String email = '', pass = '';
     final email = TextEditingController();
     final pass = TextEditingController();
 
-    // bool changeButton = false;
     final _formKey = GlobalKey<FormState>();
 
     moveToHome(BuildContext context) async {
